@@ -5,3 +5,7 @@
 /train
 *.png
 /.idea
+worksheet.py
+*.ipynb
+/extracted_encodings
+*.txt
