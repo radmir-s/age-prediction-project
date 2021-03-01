@@ -22,3 +22,8 @@ for dataset in ('test', 'train'):
         txt.write(f"{d} defected files in {i:03}: {','.join(defected)}\n")
     txt.write(f'Total defected is {total_defected}.')
     txt.close()
+
+for year in range(1, 101):
+    X = np.array([np.load(f'extracted_encodings/train/{year:03}/{file}') for file in
+                  os.listdir(f'extracted_encodings/train/{year:03}')])
+    np.save(f'extracted_encodings/train/X{year}', X)
