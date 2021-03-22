@@ -4,7 +4,9 @@
 /test
 /train
 *.png
+*.jpg
+*.jpeg
 /.idea
 worksheet.py
-*.ipynb
 /extracted_encodings
+

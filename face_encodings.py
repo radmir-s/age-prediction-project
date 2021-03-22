@@ -24,6 +24,6 @@ for dataset in ('test', 'train'):
     txt.close()
 
 for year in range(1, 101):
-    X = np.array([np.load(f'extracted_encodings/train/{year:03}/{file}') for file in
-                  os.listdir(f'extracted_encodings/train/{year:03}')])
-    np.save(f'extracted_encodings/train/X{year}', X)
+    X = np.array([np.load(f'extracted_encodings/{dataset}/{year:03}/{file}') for file in
+                  os.listdir(f'extracted_encodings/{dataset}/{year:03}')])
+    np.save(f'extracted_encodings/{dataset}/X{year}', X)
