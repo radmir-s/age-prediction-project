@@ -9,4 +9,7 @@
 /.idea
 worksheet.py
 /extracted_encodings
-
+/bigdata
+/examples
+/.ipynb_checkpoints
+/smalldata
