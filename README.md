@@ -1,7 +1,4 @@
 # age-prediction-project
-
-
-Age recognition project 
 The aim of the project is to develop an age recognition model that would take in a photo of a person and output an estimate age. The data are taken from https://www.kaggle.com/mariafrenti/age-prediction.  The initial data is around 2GB of memory consisting of 100 folders with 232647 photos of different people in total. Each folder corresponds to an age from 1 to 100 and each photo has 128x128 resolution. The data is a little bit corrupted. For example, some photos are in wrong folders like one may find an old person in a folder with teenagers or some photos might be cartoon characters. I cleaned some by hands. But there is still a small percentage of that kind of errors. Also, age labels are not totally accurate, many older people might be in 20 age younger sections and vice versa. Here is a plot of photo numbers against ages.
 The data is split into training data with 232647 photos and testing data with 47486 photos which is around 80% and 20% of the entire data.
 
